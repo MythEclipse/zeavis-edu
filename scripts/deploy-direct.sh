@@ -39,7 +39,7 @@
 #                            and the build.
 set -Eeuo pipefail
 
-REPO_URL="${DEPLOY_REPO_URL:-https://github.com/asepharyana/zeavis-edu.git}"
+REPO_URL="${DEPLOY_REPO_URL:-https://github.com/MythEclipse/zeavis-edu.git}"
 SKIP_RESTART="${SKIP_RESTART:-0}"
 
 # KEEP_RELEASES is a TOTAL, live release included, so the default of 2 leaves
