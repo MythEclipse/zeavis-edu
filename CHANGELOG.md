@@ -1,3 +1,10 @@
+## [0.2.20](https://github.com/MythEclipse/zeavis-edu/compare/v0.2.19...v0.2.20) (2026-11-01)
+
+
+### Bug Fixes
+
+* **deploy:** fetch the deploy ref from MythEclipse ([3d41cd3](https://github.com/MythEclipse/zeavis-edu/commit/3d41cd30aeb2dac1aa4ee2d1eed9d742c5800c5a))
+
 ## [0.2.19](https://github.com/MythEclipse/zeavis-edu/compare/v0.2.18...v0.2.19) (2026-11-01)
 
 ## [0.2.18](https://github.com/asepharyana/zeavis-edu/compare/v0.2.17...v0.2.18) (2026-10-30)
