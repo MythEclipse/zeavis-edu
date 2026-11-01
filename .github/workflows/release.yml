@@ -237,7 +237,7 @@ jobs:
           push: true
           platforms: ${{ matrix.image.platforms || 'linux/amd64' }}
           tags: |
-            ghcr.io/${{ github.repository_owner }}/${{ matrix.image.package }}:${{ needs.release.outputs.version }}
+            ghcr.io/mytheclipse/${{ matrix.image.package }}:${{ needs.release.outputs.version }}
           # docker-images.json may hold build_args either as a JSON object
           # (natural to write) or as a newline-separated KEY=VALUE string (what
           # this action actually parses). A raw object is accepted here and
@@ -259,7 +259,7 @@ jobs:
       # overwriting this tag.
       - name: Verify the published tag resolves
         env:
-          IMAGE: ghcr.io/${{ github.repository_owner }}/${{ matrix.image.package }}:${{ needs.release.outputs.version }}
+          IMAGE: ghcr.io/mytheclipse/${{ matrix.image.package }}:${{ needs.release.outputs.version }}
           DIGEST: ${{ steps.build.outputs.digest }}
         run: |
           set -Eeuo pipefail
