@@ -1,3 +1,10 @@
+## [0.2.21](https://github.com/MythEclipse/zeavis-edu/compare/v0.2.20...v0.2.21) (2026-11-05)
+
+
+### Bug Fixes
+
+* **deps:** stop the auto-merge gate reading its own check run ([34e6c61](https://github.com/MythEclipse/zeavis-edu/commit/34e6c610a1d58863fd34f66ac726e165eeb3217f))
+
 ## [0.2.20](https://github.com/MythEclipse/zeavis-edu/compare/v0.2.19...v0.2.20) (2026-11-01)
 
 
