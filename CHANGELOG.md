@@ -1,3 +1,10 @@
+## [0.2.23](https://github.com/MythEclipse/zeavis-edu/compare/v0.2.22...v0.2.23) (2026-11-17)
+
+
+### Bug Fixes
+
+* **deps:** bump esbuild to 0.25.0 for GHSA-67mh-4wv8-2f99 ([ec9a955](https://github.com/MythEclipse/zeavis-edu/commit/ec9a955814e3b71529e368c0bdd7b6ea75ea0396))
+
 ## [0.2.22](https://github.com/MythEclipse/zeavis-edu/compare/v0.2.21...v0.2.22) (2026-11-16)
 
 
