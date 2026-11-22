@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@tauri-apps/api':
-        specifier: 2.12.4
-        version: 2.12.4
+        specifier: 2.12.5
+        version: 2.12.5
       '@tauri-apps/plugin-deep-link':
         specifier: 2.6.3
         version: 2.6.3
@@ -102,11 +102,11 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0(@types/react@19.3.0)(react@19.3.1)
       '@tanstack/react-query':
-        specifier: ^5.107.1
-        version: 5.107.1(@types/react@19.3.0)(react@19.3.1)
+        specifier: ^5.108.1
+        version: 5.108.1(@types/react@19.3.0)(react@19.3.1)
       '@tauri-apps/api':
         specifier: ^2
-        version: 2.12.4
+        version: 2.12.5
       '@tauri-apps/plugin-deep-link':
         specifier: ^2
         version: 2.6.3
@@ -123,8 +123,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       lucide-react:
-        specifier: ^1.72.0
-        version: 1.72.0(@types/react@19.3.0)(react@19.3.1)
+        specifier: ^1.76.0
+        version: 1.76.0(@types/react@19.3.0)(react@19.3.1)
       react:
         specifier: ^19.3.1
         version: 19.3.1
@@ -132,14 +132,14 @@ importers:
         specifier: ^19.3.1
         version: 19.3.1(react@19.3.1)
       react-router-dom:
-        specifier: ^7.18.5
-        version: 7.18.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: ^7.18.6
+        version: 7.18.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       recharts:
-        specifier: ^3.10.1
-        version: 3.10.1(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react-is@19.3.0)(react@19.3.1)(redux@5.0.1)
+        specifier: ^3.11.0
+        version: 3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react-is@19.3.0)(react@19.3.1)(redux@5.0.1)
       tailwind-merge:
-        specifier: ^3.7.0
-        version: 3.7.0
+        specifier: ^3.7.1
+        version: 3.7.1
       tailwindcss:
         specifier: ^4.3.5
         version: 4.3.5
@@ -148,7 +148,7 @@ importers:
         version: 6.2.3
       zustand:
         specifier: ^5.1.0
-        version: 5.1.0(@types/react@19.3.0)(immer@11.1.21)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))
+        version: 5.1.0(@types/react@19.3.0)(immer@11.2.10)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1))
     devDependencies:
       '@tailwindcss/postcss':
         specifier: ^4.3.5
@@ -822,12 +822,15 @@ packages:
       '@types/react':
         optional: true
 
-  '@reduxjs/toolkit@2.13.0':
-    resolution: {integrity: sha512-f6jwVRfwW30+tnllz4YcsHHpPYYOE7abcHkyUCovD+P7DyhdAI5prz2Fh/8TLhakjpN+7aIEion1s5L/tvlYlA==}
+  '@reduxjs/toolkit@2.15.0':
+    resolution: {integrity: sha512-tHrFdR/AAbhhnL0/D3Abu60mAeyRqMAaq3pMeIKWRFWpzZek9LbGKk9J2U+Cl43FixzEDaYKk3zUoK7sFl98FA==}
     peerDependencies:
+      '@types/react': '*'
       react: ^16.9.0 || ^17.0.0 || ^18 || ^19
       react-redux: ^7.2.1 || ^8.1.3 || ^9.0.0
     peerDependenciesMeta:
+      '@types/react':
+        optional: true
       react:
         optional: true
       react-redux:
@@ -1037,11 +1040,11 @@ packages:
   '@tailwindcss/postcss@4.3.5':
     resolution: {integrity: sha512-FAV37Tlx9wBiT/hkfgVD0Q6CWsP2oUX3lf28nrfjW8+ksILjnpuFulUqWDfNR4/ZiEHHDRBX8DUTzD1Rys687A==}
 
-  '@tanstack/query-core@5.107.1':
-    resolution: {integrity: sha512-PSyAik11oQBEVOiVy5hjZWHmoUqOXqK1WYy4v55mcxozEfKaQgpUMsgnXhWjuESzSht8JfzqMS1m6M/9CpNgvg==}
+  '@tanstack/query-core@5.108.1':
+    resolution: {integrity: sha512-GBX6Xsc9E+9eVLLxuM7orQNbssQjpruOCbocBYwT78MjxOWT5I+CWdvEo0N+UM6+oCZEKxuSud1oFLvE3OEmIg==}
 
-  '@tanstack/react-query@5.107.1':
-    resolution: {integrity: sha512-udCOOLp3ZAheUrIHLCe+ZZge6nr2ZUrGMSWcCuXsjY1Bf2JeeE09oxst97PILiCY6N8xo/7bIo3Hvz13zh06FA==}
+  '@tanstack/react-query@5.108.1':
+    resolution: {integrity: sha512-8/p7fpIdmUiKIukQ5ddAMUUSKC7Z8CcgUOBR2r3WqRvMg9Lzc4CXeoFchjfATKvqi23SyYFvesDdOULrvyunNg==}
     peerDependencies:
       '@types/react': ^18 || ^19
       react: ^18 || ^19
@@ -1049,8 +1052,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@tauri-apps/api@2.12.4':
-    resolution: {integrity: sha512-pVmfis+4zT8H0Qhp3xPZx9Ju7kpzvA6rr/PSJPyuwfvucTQ8sVt61NYU9KMkK703UFlYadFmjKA4HhybOtN0gg==}
+  '@tauri-apps/api@2.12.5':
+    resolution: {integrity: sha512-G9QIMt5fzED+aS4QhVK3w1HWLKpLIwH/MnpCr9z1ugGEHnS2ORmqrLkc0uALOjRK4qXJy+4Yiw8LDl/KicC1Hg==}
 
   '@tauri-apps/cli-darwin-arm64@2.12.4':
     resolution: {integrity: sha512-OxqKSckIkoJ6vX2AjifIJpTasFC0Hbdoo7gEiCmAjauABO3U8m2MRsLWe+QTiBwDx1mIrvgA+rvI7tvDnbnHVg==}
@@ -1406,48 +1409,48 @@ packages:
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
-  d3-array@3.2.4:
-    resolution: {integrity: sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==}
+  d3-array@3.2.5:
+    resolution: {integrity: sha512-Th8qGXoBalmWsstpkuhmBuTsBQIFqYOJtjlBvNVvBfJ8E3uYusBUwUR8HU20U0qKKQkgCvKyR1YjiozWadk5QA==}
     engines: {node: '>=12'}
 
-  d3-color@3.1.0:
-    resolution: {integrity: sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==}
+  d3-color@3.1.1:
+    resolution: {integrity: sha512-lfab8x0Bj0UO7SNsY8dZSbNIA6ipbkE3X0NG9nqjCu6CfCHZseuDnOSJY7hidKrjpP++i1M2qT+FlAdPKYRilA==}
     engines: {node: '>=12'}
 
-  d3-ease@3.0.1:
-    resolution: {integrity: sha512-wR/XK3D3XcLIZwpbvQwQ5fK+8Ykds1ip7A2Txe0yxncXSdq1L9skcG7blcedkOX+ZcgxGAmLX1FrRGbADwzi0w==}
+  d3-ease@3.0.2:
+    resolution: {integrity: sha512-B5znKqRmKROAN4oHWQ50W/qisVjA9GXh2WMsVKdFVp4DxWmcrOsweqgUOUVsv5th96kwaZlokU6SlV4J3gak1w==}
     engines: {node: '>=12'}
 
-  d3-format@3.1.2:
-    resolution: {integrity: sha512-AJDdYOdnyRDV5b6ArilzCPPwc1ejkHcoyFarqlPqT7zRYjhavcT3uSrqcMvsgh2CgoPbK3RCwyHaVyxYcP2Arg==}
+  d3-format@3.1.3:
+    resolution: {integrity: sha512-+F+/49swqmGuQJmSKnVMIDH/QkEFV5li9QRj0xm/KhyAUBv099O5PrvpQFxBp24PYph17Mnvt9mjKQV0ii0nMA==}
     engines: {node: '>=12'}
 
-  d3-interpolate@3.0.1:
-    resolution: {integrity: sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==}
+  d3-interpolate@3.0.2:
+    resolution: {integrity: sha512-IRzGU62DtxhvsnSTWMQIdnoZ6gA+BCWwBon1EJI6SjoN595799b6z/QRBzXfFhE8iupUPp3042yBNo0STPqnzQ==}
     engines: {node: '>=12'}
 
-  d3-path@3.1.0:
-    resolution: {integrity: sha512-p3KP5HCf/bvjBSSKuXid6Zqijx7wIfNW+J/maPs+iwR35at5JCbLUT0LzF1cnjbCHWhqzQTIN2Jpe8pRebIEFQ==}
+  d3-path@3.1.1:
+    resolution: {integrity: sha512-jsbgV8zIT38ReB9O7X7gcLndTQRONSqNNd+oGIaTBdUug4r5jFmp0N6RY9R5GWbdUDucn0qoTGyfjapT4tDhcg==}
     engines: {node: '>=12'}
 
-  d3-scale@4.0.2:
-    resolution: {integrity: sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==}
+  d3-scale@4.0.3:
+    resolution: {integrity: sha512-66cWobCNzcMvlfoaDHCxuIv9TBUWG1BLOWdv9kHHFuCr1JdqAWPvTmsaEYDD5NRMyWZ5+7u0GqiCDfMXMqh3hg==}
     engines: {node: '>=12'}
 
-  d3-shape@3.2.0:
-    resolution: {integrity: sha512-SaLBuwGm3MOViRq2ABk3eLoxwZELpH6zhl3FbAoJ7Vm1gofKx6El1Ib5z23NUEhF9AsGl7y+dzLe5Cw2AArGTA==}
+  d3-shape@3.2.1:
+    resolution: {integrity: sha512-dm2o+lbKdzg9tY7GEag/dB9hcbodLfwkE/DkvqbELJXaMz0yKzWWhZqhbI7CKubukA7HnRyz0avdtvi7EPxPvw==}
     engines: {node: '>=12'}
 
-  d3-time-format@4.1.0:
-    resolution: {integrity: sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==}
+  d3-time-format@4.1.1:
+    resolution: {integrity: sha512-22XaqjyCjpqgda20erhsOjGmC3vvYwTNYniKAd45W5UWLDF43moeOuV9qYpRqobIlsnK0UhnKZjUUJm3VgORUA==}
     engines: {node: '>=12'}
 
-  d3-time@3.1.0:
-    resolution: {integrity: sha512-VqKjzBLejbSMT4IgbmVgDjpkYrNWUYJnbCGo874u7MMKIWsILRX+OpX/gTk8MqjpT1A/c6HY2dCA77ZN0lkQ2Q==}
+  d3-time@3.1.1:
+    resolution: {integrity: sha512-Ze7rjrhMzdeulh0/hjcfFj7XLAHOfowtEMfsoG6DU866HPynQNW7Wfen6hzXcqKTv8XzxvF6Hzr5XD6bMHr2ug==}
     engines: {node: '>=12'}
 
-  d3-timer@3.0.1:
-    resolution: {integrity: sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==}
+  d3-timer@3.0.2:
+    resolution: {integrity: sha512-1Il1aliroVSErrv5aulRBxAY+7+DnaoLIWGd1C6SsBTWDeobWiP/V69vwb8vT6abR1kKwaNe1196pmaQ1fK90A==}
     engines: {node: '>=12'}
 
   debug@4.4.3:
@@ -1593,8 +1596,8 @@ packages:
   es-module-lexer@3.0.4:
     resolution: {integrity: sha512-BldNY5mwkVu+cQ5Ymn3e6hB9Sx8XHx4ZevWbiUyZbfKxJxYO27Hf0wfzkxIaD5CAJMaGl3YspKELj0ff/7nCMA==}
 
-  es-toolkit@1.52.0:
-    resolution: {integrity: sha512-XTNEJQh1tY1ZJVcf6ayP/2n4ZPyaHlW2FWs7xvw5ddPuhUVjLD3olQVQS7kf58JbAB48iL0uL/jerTrjtV3lDA==}
+  es-toolkit@1.53.2:
+    resolution: {integrity: sha512-iUqZ+NlwH4jUgRmXZUxFBsV/9762TQEa1O4IXLFBmDEjVHScBytKuseX23I0+v9ShZ5MYxEx6WKNzm6IPnex8g==}
 
   esbuild@0.25.0:
     resolution: {integrity: sha512-BXq5mqc8ltbaN34cDqWuYKyNhX8D/Z0J1xdtdQ8UcIIIyJyz+ZMKUt58tF3SrZ85jcfN/PZYhjR5uDQAYNVbuw==}
@@ -1663,8 +1666,8 @@ packages:
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
 
-  immer@11.1.21:
-    resolution: {integrity: sha512-bZSadeCPGdaY5/qRLgr6mDSH1ra21rD3rqpiWk7+QTr4ayYPTE9qZYdLh/NdPhMe0wSrTvHD/Lk8q5EwhUs0aw==}
+  immer@11.2.10:
+    resolution: {integrity: sha512-pzANBj+0A9u+prdhBJ14DVi44vCvVUQzBa8DKt6I0AMCokPHtt722BK9IX5bFC70xUSU9TnzLRIJLTGqIzjEFw==}
 
   import-in-the-middle@3.6.0:
     resolution: {integrity: sha512-xRU7hI24S2FhucXtuZXn8EpcOjfVP6iiEQyR0USayPeaOroEmSsNlqnl95866iRdRtkHrd6Q/Z4D14R60au0+A==}
@@ -1762,8 +1765,8 @@ packages:
   long@5.3.2:
     resolution: {integrity: sha512-mNAgZ1GmyNhD7AuqnTG3/VQ26o760+ZYBPKjPvugO8+nLbYfX6TVpJPseBvopbdY+qpZ/lKUnmEc1LeZYS3QAA==}
 
-  lucide-react@1.72.0:
-    resolution: {integrity: sha512-fbF5i1GU8GODETa3Q7rXqrJrcx3iPYrQtxthom103zGx+Z0BGwKYAW9s+9435ohYJ7hQm0av0PoZcqI1CRwNrg==}
+  lucide-react@1.76.0:
+    resolution: {integrity: sha512-wRVHt2Xf64GXndB4rQOY9+3Wy9oJ59HDMYv6vwhT0hpSwUxQhG/RM9YijnOmvmIQ+VI/n+1V/FKd6gP4XL2aBQ==}
     peerDependencies:
       '@types/react': '*'
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -1827,8 +1830,8 @@ packages:
   react-is@19.3.0:
     resolution: {integrity: sha512-UpMYezM4v5/18F28aC66AEsjXIgE02kyEMH6yLdgLXu/UTfa1Ntwck/nNLrbqJsEXW7gPb0coNO9FQse9WTovA==}
 
-  react-redux@9.3.0:
-    resolution: {integrity: sha512-KQopgqFo/p/fgmAs5qz6p5RWaNAzq40WAu7fJIXnQpYxFPbJYtsJPWvGeF2rOBaY/kEuV77AVsX8TsQzKm+A/g==}
+  react-redux@9.3.1:
+    resolution: {integrity: sha512-vxMLT0lalUjbZPkoTepWyKAZbjIIFssNx/CEL9lTfwQBU6XpkGSmCNdcCIrkOBUgB68uftZMnbXVb6DwGnhRKQ==}
     peerDependencies:
       '@types/react': ^18.2.25 || ^19
       react: ^18.0 || ^19
@@ -1839,15 +1842,15 @@ packages:
       redux:
         optional: true
 
-  react-router-dom@7.18.5:
-    resolution: {integrity: sha512-9HcfDMU6JJ/fp6gJZYGwNE6RknVGS4kBjH1HkNw959mCJi70TVwdipQWv2FEol9uGpi+SZTFtVpJPtEQfayeOw==}
+  react-router-dom@7.18.6:
+    resolution: {integrity: sha512-a8JzFsKEY3EY9QL7t4T1b1OhuY0ngEfwMzXQNgBO/2cuIW9028JbVq3uk2rKnjLredzcIoDKLzUkguIq6fnkFA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
 
-  react-router@7.18.5:
-    resolution: {integrity: sha512-dTgvcXDOrLPrlLHrcZAqWveiK1hMSqN+rGAJzegP8HtmNkfRxOoshGWBNX3ZJ0cZjOHkRdlUJtaIhZMLLyGyPw==}
+  react-router@7.18.6:
+    resolution: {integrity: sha512-SP8KqKfRLlJzqzPseC+r6yYFsqPEavtQCC4BKV810tBGijjESLtwVPam+gPOO+wYeXrYN/TNy2CAykQVcNg4iQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -1860,13 +1863,17 @@ packages:
     resolution: {integrity: sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==}
     engines: {node: '>=0.10.0'}
 
-  recharts@3.10.1:
-    resolution: {integrity: sha512-QXFrvt6IVcw7eeZCoyXTwkIJAX3Dv1nyVhMicXJ47GsGDDpcN8z6o644DibE9XjpBTThtsomLKnTV6lc+cVFUA==}
+  recharts@3.11.0:
+    resolution: {integrity: sha512-Hs7vXskAYl82TKKkeikPxMFOaOqVJBoqxay6a4Oj+sBURVorpSKk8J732vyNsmedxK08lpPhyj2GL4E6ZMHR6Q==}
     engines: {node: '>=18'}
     peerDependencies:
+      '@types/react': '*'
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-is: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
 
   redux-thunk@3.1.0:
     resolution: {integrity: sha512-NW2r5T6ksUKXCabzhL9z+h206HQw/NJkcLm1GPImRQ8IzfXwRGqjVhKJGauHirT0DAuyy6hjdnMZaRoAcy0Klw==}
@@ -1946,8 +1953,8 @@ packages:
     resolution: {integrity: sha512-e6bW3fD6V01DPmcbLfNtn0cjsiHvTKS/hivgbzqYMfHb/nLes4QQ0H5QBxlkPQayF4xv08AvlSgptGwN86Eemw==}
     engines: {node: '>=18'}
 
-  tailwind-merge@3.7.0:
-    resolution: {integrity: sha512-XPPUyAc+cvspz3lHTcR/QgPfW2A0lv/xQNIjX3HGhLR+Nq2lHaLq5MtTesHn8GUr3W3DguT2KT5x3NVgRtYwmA==}
+  tailwind-merge@3.7.1:
+    resolution: {integrity: sha512-v7y4BV4FUlO8exj/4M5UXKeoowDiuugVUg3tkMNIyOUCOHy5xp8+5aWQeXCtZ2491sUV1YPsVeM9EveZ6/xuZQ==}
 
   tailwindcss@4.3.5:
     resolution: {integrity: sha512-FcQk9BuffmEHJP2G0XmB2SplU1aLTI7j07Kunk+U74Ny+XiWOtzXz9aujFZ/avntw1e2cOv/3PkgzflQ7gX2vQ==}
@@ -2017,8 +2024,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  victory-vendor@37.3.6:
-    resolution: {integrity: sha512-SbPDPdDBYp+5MJHhBCAyI7wKM3d5ivekigc2Dk2s7pgbZ9wIgIBYGVw4zGHBml/qTFbexrofXW6Gu4noGxrOwQ==}
+  victory-vendor@37.4.1:
+    resolution: {integrity: sha512-geV4p2GVfVM9lgm9ZRS3pvsbAPS+BUGhM9W9nPzPHTKi+/+KjNrFXdgP6KkG+XspNZuvcXmchcrtklfuQ4gniw==}
 
   vite-tsconfig-paths@6.1.1:
     resolution: {integrity: sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==}
@@ -2695,17 +2702,18 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.3.0
 
-  '@reduxjs/toolkit@2.13.0(react-redux@9.3.0(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1))(react@19.3.1)':
+  '@reduxjs/toolkit@2.15.0(@types/react@19.3.0)(react-redux@9.3.1(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1))(react@19.3.1)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@standard-schema/utils': 0.3.0
-      immer: 11.1.21
+      immer: 11.2.10
       redux: 5.0.1
       redux-thunk: 3.1.0(redux@5.0.1)
       reselect: 5.2.0
     optionalDependencies:
+      '@types/react': 19.3.0
       react: 19.3.1
-      react-redux: 9.3.0(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1)
+      react-redux: 9.3.1(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1)
 
   '@rolldown/binding-android-arm-eabi@1.2.19':
     optional: true
@@ -2836,16 +2844,16 @@ snapshots:
       postcss: 8.5.32
       tailwindcss: 4.3.5
 
-  '@tanstack/query-core@5.107.1': {}
+  '@tanstack/query-core@5.108.1': {}
 
-  '@tanstack/react-query@5.107.1(@types/react@19.3.0)(react@19.3.1)':
+  '@tanstack/react-query@5.108.1(@types/react@19.3.0)(react@19.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.107.1
+      '@tanstack/query-core': 5.108.1
       react: 19.3.1
     optionalDependencies:
       '@types/react': 19.3.0
 
-  '@tauri-apps/api@2.12.4': {}
+  '@tauri-apps/api@2.12.5': {}
 
   '@tauri-apps/cli-darwin-arm64@2.12.4':
     optional: true
@@ -2896,11 +2904,11 @@ snapshots:
 
   '@tauri-apps/plugin-deep-link@2.6.3':
     dependencies:
-      '@tauri-apps/api': 2.12.4
+      '@tauri-apps/api': 2.12.5
 
   '@tauri-apps/plugin-opener@2.7.3':
     dependencies:
-      '@tauri-apps/api': 2.12.4
+      '@tauri-apps/api': 2.12.5
 
   '@tokenizer/inflate@0.4.1':
     dependencies:
@@ -3083,43 +3091,43 @@ snapshots:
 
   csstype@3.2.3: {}
 
-  d3-array@3.2.4:
+  d3-array@3.2.5:
     dependencies:
       internmap: 2.0.3
 
-  d3-color@3.1.0: {}
+  d3-color@3.1.1: {}
 
-  d3-ease@3.0.1: {}
+  d3-ease@3.0.2: {}
 
-  d3-format@3.1.2: {}
+  d3-format@3.1.3: {}
 
-  d3-interpolate@3.0.1:
+  d3-interpolate@3.0.2:
     dependencies:
-      d3-color: 3.1.0
+      d3-color: 3.1.1
 
-  d3-path@3.1.0: {}
+  d3-path@3.1.1: {}
 
-  d3-scale@4.0.2:
+  d3-scale@4.0.3:
     dependencies:
-      d3-array: 3.2.4
-      d3-format: 3.1.2
-      d3-interpolate: 3.0.1
-      d3-time: 3.1.0
-      d3-time-format: 4.1.0
+      d3-array: 3.2.5
+      d3-format: 3.1.3
+      d3-interpolate: 3.0.2
+      d3-time: 3.1.1
+      d3-time-format: 4.1.1
 
-  d3-shape@3.2.0:
+  d3-shape@3.2.1:
     dependencies:
-      d3-path: 3.1.0
+      d3-path: 3.1.1
 
-  d3-time-format@4.1.0:
+  d3-time-format@4.1.1:
     dependencies:
-      d3-time: 3.1.0
+      d3-time: 3.1.1
 
-  d3-time@3.1.0:
+  d3-time@3.1.1:
     dependencies:
-      d3-array: 3.2.4
+      d3-array: 3.2.5
 
-  d3-timer@3.0.1: {}
+  d3-timer@3.0.2: {}
 
   debug@4.4.3:
     dependencies:
@@ -3164,7 +3172,7 @@ snapshots:
 
   es-module-lexer@3.0.4: {}
 
-  es-toolkit@1.52.0: {}
+  es-toolkit@1.53.2: {}
 
   esbuild@0.25.0:
     optionalDependencies:
@@ -3238,7 +3246,7 @@ snapshots:
 
   ieee754@1.2.1: {}
 
-  immer@11.1.21: {}
+  immer@11.2.10: {}
 
   import-in-the-middle@3.6.0:
     dependencies:
@@ -3305,7 +3313,7 @@ snapshots:
 
   long@5.3.2: {}
 
-  lucide-react@1.72.0(@types/react@19.3.0)(react@19.3.1):
+  lucide-react@1.76.0(@types/react@19.3.0)(react@19.3.1):
     dependencies:
       react: 19.3.1
     optionalDependencies:
@@ -3365,7 +3373,7 @@ snapshots:
 
   react-is@19.3.0: {}
 
-  react-redux@9.3.0(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1):
+  react-redux@9.3.1(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1):
     dependencies:
       '@types/use-sync-external-store': 0.0.6
       react: 19.3.1
@@ -3374,13 +3382,13 @@ snapshots:
       '@types/react': 19.3.0
       redux: 5.0.1
 
-  react-router-dom@7.18.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
+  react-router-dom@7.18.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
-      react-router: 7.18.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+      react-router: 7.18.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
 
-  react-router@7.18.5(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
+  react-router@7.18.6(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
       cookie: 1.1.1
       react: 19.3.1
@@ -3390,24 +3398,25 @@ snapshots:
 
   react@19.3.1: {}
 
-  recharts@3.10.1(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react-is@19.3.0)(react@19.3.1)(redux@5.0.1):
+  recharts@3.11.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react-is@19.3.0)(react@19.3.1)(redux@5.0.1):
     dependencies:
-      '@reduxjs/toolkit': 2.13.0(react-redux@9.3.0(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1))(react@19.3.1)
+      '@reduxjs/toolkit': 2.15.0(@types/react@19.3.0)(react-redux@9.3.1(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1))(react@19.3.1)
       clsx: 2.1.1
       decimal.js-light: 2.5.1
-      es-toolkit: 1.52.0
+      es-toolkit: 1.53.2
       eventemitter3: 5.0.4
-      immer: 11.1.21
+      immer: 11.2.10
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
       react-is: 19.3.0
-      react-redux: 9.3.0(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1)
+      react-redux: 9.3.1(@types/react@19.3.0)(react@19.3.1)(redux@5.0.1)
       reselect: 5.2.0
       tiny-invariant: 1.3.3
       use-sync-external-store: 1.7.0(react@19.3.1)
-      victory-vendor: 37.3.6
+      victory-vendor: 37.4.1
+    optionalDependencies:
+      '@types/react': 19.3.0
     transitivePeerDependencies:
-      - '@types/react'
       - redux
 
   redux-thunk@3.1.0(redux@5.0.1):
@@ -3516,7 +3525,7 @@ snapshots:
     dependencies:
       '@tokenizer/token': 0.3.0
 
-  tailwind-merge@3.7.0: {}
+  tailwind-merge@3.7.1: {}
 
   tailwindcss@4.3.5: {}
 
@@ -3590,7 +3599,7 @@ snapshots:
     dependencies:
       react: 19.3.1
 
-  victory-vendor@37.3.6:
+  victory-vendor@37.4.1:
     dependencies:
       '@types/d3-array': 3.2.2
       '@types/d3-ease': 3.0.2
@@ -3599,13 +3608,13 @@ snapshots:
       '@types/d3-shape': 3.2.0
       '@types/d3-time': 3.0.4
       '@types/d3-timer': 3.0.2
-      d3-array: 3.2.4
-      d3-ease: 3.0.1
-      d3-interpolate: 3.0.1
-      d3-scale: 4.0.2
-      d3-shape: 3.2.0
-      d3-time: 3.1.0
-      d3-timer: 3.0.1
+      d3-array: 3.2.5
+      d3-ease: 3.0.2
+      d3-interpolate: 3.0.2
+      d3-scale: 4.0.3
+      d3-shape: 3.2.1
+      d3-time: 3.1.1
+      d3-timer: 3.0.2
 
   vite-tsconfig-paths@6.1.1(typescript@7.0.2)(vite@8.3.8(@types/node@26.6.6)(esbuild@0.25.0)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1)):
     dependencies:
@@ -3680,9 +3689,9 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 21.1.1
 
-  zustand@5.1.0(@types/react@19.3.0)(immer@11.1.21)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1)):
+  zustand@5.1.0(@types/react@19.3.0)(immer@11.2.10)(react@19.3.1)(use-sync-external-store@1.7.0(react@19.3.1)):
     optionalDependencies:
       '@types/react': 19.3.0
-      immer: 11.1.21
+      immer: 11.2.10
       react: 19.3.1
       use-sync-external-store: 1.7.0(react@19.3.1)
